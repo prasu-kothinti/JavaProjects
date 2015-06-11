@@ -1,3 +1,3 @@
 # JavaProjects
-ReadMe !!! Version 23 !!!
+ReadMe !!! Version 24 !!!
 CoberturaExample

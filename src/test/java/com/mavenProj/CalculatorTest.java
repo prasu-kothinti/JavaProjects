@@ -17,4 +17,9 @@ public class CalculatorTest {
 		Assert.assertEquals(c.calculate(2,3,'*'), 6);
 	}
 	
+	@Test
+	public void testCalculator2(){
+		Calculator c = new Calculator();
+		Assert.assertEquals(c.calculate(6,3,'/'), 2);
+	}
 }

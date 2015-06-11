@@ -10,4 +10,11 @@ public class CalculatorTest {
 		Calculator c = new Calculator();
 		Assert.assertEquals(c.calculate(2,3,'+'), 5);
 	}
+	
+	@Test
+	public void testCalculator1(){
+		Calculator c = new Calculator();
+		Assert.assertEquals(c.calculate(2,3,'*'), 6);
+	}
+	
 }
